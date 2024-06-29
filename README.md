@@ -41,6 +41,11 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 1. Average Income of Male and Female who purchased bike or not
    
+    ![Screenshot 2024-06-29 131631](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/5baef732-ac7b-45bc-af39-25a553fd608f)
+
+   
+
+   
 
 
 
