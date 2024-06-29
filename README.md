@@ -39,13 +39,35 @@ EDA involved exploring the sales data to answer key questions, such as:
 
 ### Data Analysis and Visualization
 
-1. Average Income of Male and Female who purchased bike or not
+1. Average income of male and female who purchased the bike or not
    
     ![Screenshot 2024-06-29 131631](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/5baef732-ac7b-45bc-af39-25a553fd608f)
 
-   
+   ![Gender   Income Chart](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/acec54b1-056e-4589-b46b-671aedfc5edf)
 
-   
+
+2. Purchase of bike on the basis of customer's commute
+
+   ![Commute Distance   Purchase table](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/b30fbea7-33e0-4520-b68c-0b9693c851a6)
+
+   ![Commute Distance   Purchase Chart](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/4bb5bc02-824e-4b93-93a1-0f8c934fc356)
+
+
+3. Purchase of bike on the basis of age bracket
+
+   ![Age Group   Purchase table](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/d7b5ac34-54a4-44e5-9f12-926aa95779e7)
+
+   ![Age group   purchase chart](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/b06a4822-8b34-46bc-845e-484d1c0342c1)
+
+
+4. Purchase of Bike on the basis of marital status
+
+   ![Purchase by Marital Status](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/1adc057e-c724-471a-91ed-a110f308d947)
+
+
+5. Purchase of bike on the basis of region
+
+   ![Purchase by region](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/3fd40a09-1f75-4950-9446-f98811d67b17)
 
 
 
