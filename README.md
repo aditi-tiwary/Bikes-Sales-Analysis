@@ -9,14 +9,17 @@
 ---
 This data analysis project aims to provide insights into the sales performance of bikes. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of different factors considered by the customers before purchasing a bike.
 
+  ![Dashboard gif](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/adba5d11-7b45-4241-b13c-7abd773c196f)
 
+  ![Dashboard](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/b64763cb-d383-4d99-89d9-7c0719f34ccf)
 
+ 
 ### Data Sources
 Sales Data: The primary dataset used for this analysis is the "bike sales raw data.xlsx" file, containing detailed information about each bike sale.
 
 
 ### Tools
-- Excel - Data Cleaning, Data Analysis through Pivot Tables, Creating Dashboard
+- **Excel** - Data Cleaning, Data Analysis through Pivot Tables, Data Visualization through Charts, Creating Dashboard.
 
 
 ### Data Cleaning
