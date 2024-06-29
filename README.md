@@ -3,8 +3,8 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Recommendations](#recommendations)
+- [Data Cleaning](#data-cleaning)
+- [Results](#results)
 
 ### Project Overview
 ---
@@ -20,7 +20,7 @@ Sales Data: The primary dataset used for this analysis is the "bike sales raw da
 
 - Excel - Data Cleaning, Data Analysis through Pivot Tables, Creating Dashboard
 
-### Data Cleaning/Preparation
+### Data Cleaning
 
 In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection- Removed 26 duplicate entries from the raw dataset.
@@ -33,66 +33,68 @@ In the initial data preparation phase, we performed the following tasks:
 
 EDA involved exploring the sales data to answer key questions, such as:
 
-- Is the average income of both male and female who purchased the bike higher than those who did not?
+- Which gender purchased more bikes respective to their average income?
 - How is the bike purchase affected by the commute distance?
 - Which age group purchased more bikes?
+- Does marital status affect bike sales?
+- Which region has more bike sales than others?
 
 ### Data Analysis and Visualization
 
-1. Average income of male and female who purchased the bike or not
+1. **Average income of male and female who purchased the bike or not**
    
     ![Screenshot 2024-06-29 131631](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/5baef732-ac7b-45bc-af39-25a553fd608f)
 
    ![Gender   Income Chart](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/acec54b1-056e-4589-b46b-671aedfc5edf)
 
 
-2. Purchase of bike on the basis of customer's commute
+2. **Purchase of bike on the basis of customer's commute**
 
    ![Commute Distance   Purchase table](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/b30fbea7-33e0-4520-b68c-0b9693c851a6)
 
    ![Commute Distance   Purchase Chart](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/4bb5bc02-824e-4b93-93a1-0f8c934fc356)
 
 
-3. Purchase of bike on the basis of age bracket
+3. **Purchase of bike on the basis of age bracket**
 
    ![Age Group   Purchase table](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/d7b5ac34-54a4-44e5-9f12-926aa95779e7)
 
    ![Age group   purchase chart](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/b06a4822-8b34-46bc-845e-484d1c0342c1)
 
 
-4. Purchase of Bike on the basis of marital status
+4. **Purchase of Bike on the basis of marital status**
 
    ![Purchase by Marital Status](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/1adc057e-c724-471a-91ed-a110f308d947)
 
 
-5. Purchase of bike on the basis of region
+5. **Purchase of bike on the basis of region**
 
    ![Purchase by region](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/3fd40a09-1f75-4950-9446-f98811d67b17)
 
 
 
-### Results/Findings
+### Results
 
 The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+1. Out of male and female customers, male customers with higher average income purchased more bikes than female customers with lower average income.
+2. Shorter commute distances correlate with higher bike purchase.
+3. Middle aged customers between 31-54 years are key purchasers, while there is a decline of bike purchase in the old aged customers i.e. above 55 years.
+4. Single customers have purchased approximately 4% more bikes than married customers.
+5. North America has more customers compared to Pacific and Europe region.
+
+
 
 ### Recommendations
 
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales seasons to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
+Based on the analysis, I would recommend the following actions:
+- Target group should be male customers with higher income.
+- Concentrate on areas with shorter commutes. Meanwhile, diversify products and collaborate to target the issue of longer commutes. 
+- Focus on expanding the products in North America as a priority. Meanwhile, launch strategic marketing ideas for other regions to increase the sales.
+- Gather youth feedback to increase sales amongst the single customers.Also implement a family-oriented marketing strategies to target married customers effectively.
 
-### Limitations
 
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
-
-### References
-
-1. SQL for Businesses by werty.
-2. [Stack Overflow](https://stack.com)
+  
+### Ref
 
 😄
 
