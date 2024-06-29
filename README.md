@@ -24,11 +24,11 @@ Sales Data: The primary dataset used for this analysis is the "bike sales raw da
 
 ### Data Cleaning
 In the initial data preparation phase, we performed the following tasks:
-1. Data loading and inspection- Removed 26 duplicate entries from the raw dataset.
-2. Data cleaning- Replaced 'M' to 'Married' and 'S' to 'Single' in 'Marital Status' column. Likewise, replaced 'M' to 'Male' and 'F' to 'Female' in 'Gender' column for more clarity.
-3. Data formatting- Set the 'Income' column as Currency type and removed the decimals.
-4. Created a new column 'Age Brackets' to categorize age groups into 'Adolscent','Middle Age','Old' using IF function.
-5. Value Modification- Replaced '10+ Miles' in the 'Commute Distance' column to 'More than 10 Miles' for better data interpretation.
+1. **Data loading and inspection-** Removed 26 duplicate entries from the raw dataset.
+2. **Data cleaning-** Replaced 'M' to 'Married' and 'S' to 'Single' in 'Marital Status' column. Likewise, replaced 'M' to 'Male' and 'F' to 'Female' in 'Gender' column for more clarity.
+3. **Data formatting-** Set the 'Income' column as Currency type and removed the decimals.
+4. **Created a new column** 'Age Brackets' to categorize age groups into 'Adolscent','Middle Age','Old' using IF function.
+5. **Value Modification-** Replaced '10+ Miles' in the 'Commute Distance' column to 'More than 10 Miles' for better data interpretation.
 
 
 ### Exploratory Data Analysis
