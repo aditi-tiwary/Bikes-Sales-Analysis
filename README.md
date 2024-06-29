@@ -11,44 +11,38 @@
 
 This data analysis project aims to provide insights into the sales performance of bikes. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of different factors considered by the customers before purchasing a bike.
 
-![bar plot](https://github.com/Irene-arch/Documenting_Example/assets/56026296/5ebedeb8-65e4-4f09-a2a5-0699119f5ff7)
-
 
 ### Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+Sales Data: The primary dataset used for this analysis is the "bike sales raw data.xlsx" file, containing detailed information about each bike sale.
 
 ### Tools
 
-- Excel - Data Cleaning
-  - [Download here](https://microsoft.com)
-- SQL Server - Data Analysis
-- PowerBI - Creating reports
-
+- Excel - Data Cleaning, Data Analysis through Pivot Tables, Creating Dashboard
 
 ### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks:
-1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning and formatting.
+1. Data loading and inspection- Removed 26 duplicate entries from the raw dataset.
+2. Data cleaning- Replaced 'M' to 'Married' and 'S' to 'Single' in 'Marital Status' column. Likewise, replaced 'M' to 'Male' and 'F' to 'Female' in 'Gender' column for more clarity.
+3. Data formatting- Set the 'Income' column as Currency type and removed the decimals.
+4. Created a new column 'Age Brackets' to categorize age groups into 'Adolscent','Middle Age','Old' using IF function.
+5. Value Modification- Replaced '10+ Miles' in the 'Commute Distance' column to 'More than 10 Miles' for better data interpretation.
 
 ### Exploratory Data Analysis
 
 EDA involved exploring the sales data to answer key questions, such as:
 
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
+- Is the average income of both male and female who purchased the bike higher than those who did not?
+- How is the bike purchase affected by the commute distance?
+- Which age group purchased more bikes?
 
-### Data Analysis
+### Data Analysis and Visualization
 
-Include some interesting code/features worked with
+1. Average Income of Male and Female who purchased bike or not
+   
 
-```sql
-SELECT * FROM table1
-WHERE cond = 2;
-```
+
 
 ### Results/Findings
 
