@@ -1,27 +1,25 @@
 # Bike Sales Analysis
 
 ## Table of Contents
-
 - [Project Overview](#project-overview)
 - [Data Cleaning](#data-cleaning)
 - [Results](#results)
 
 ### Project Overview
 ---
-
 This data analysis project aims to provide insights into the sales performance of bikes. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of different factors considered by the customers before purchasing a bike.
 
 
-### Data Sources
 
+### Data Sources
 Sales Data: The primary dataset used for this analysis is the "bike sales raw data.xlsx" file, containing detailed information about each bike sale.
 
-### Tools
 
+### Tools
 - Excel - Data Cleaning, Data Analysis through Pivot Tables, Creating Dashboard
 
-### Data Cleaning
 
+### Data Cleaning
 In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection- Removed 26 duplicate entries from the raw dataset.
 2. Data cleaning- Replaced 'M' to 'Married' and 'S' to 'Single' in 'Marital Status' column. Likewise, replaced 'M' to 'Male' and 'F' to 'Female' in 'Gender' column for more clarity.
@@ -29,8 +27,8 @@ In the initial data preparation phase, we performed the following tasks:
 4. Created a new column 'Age Brackets' to categorize age groups into 'Adolscent','Middle Age','Old' using IF function.
 5. Value Modification- Replaced '10+ Miles' in the 'Commute Distance' column to 'More than 10 Miles' for better data interpretation.
 
-### Exploratory Data Analysis
 
+### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions, such as:
 
 - Which gender purchased more bikes respective to their average income?
@@ -38,6 +36,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 - Which age group purchased more bikes?
 - Does marital status affect bike sales?
 - Which region has more bike sales than others?
+
 
 ### Data Analysis and Visualization
 
@@ -72,9 +71,7 @@ EDA involved exploring the sales data to answer key questions, such as:
    ![Purchase by region](https://github.com/aditi-tiwary/Bikes-Sales-Analysis/assets/149948622/3fd40a09-1f75-4950-9446-f98811d67b17)
 
 
-
 ### Results
-
 The analysis results are summarized as follows:
 1. Out of male and female customers, male customers with higher average income purchased more bikes than female customers with lower average income.
 2. Shorter commute distances correlate with higher bike purchase.
@@ -83,30 +80,9 @@ The analysis results are summarized as follows:
 5. North America has more customers compared to Pacific and Europe region.
 
 
-
 ### Recommendations
-
 Based on the analysis, I would recommend the following actions:
 - Target group should be male customers with higher income.
 - Concentrate on areas with shorter commutes. Meanwhile, diversify products and collaborate to target the issue of longer commutes. 
 - Focus on expanding the products in North America as a priority. Meanwhile, launch strategic marketing ideas for other regions to increase the sales.
 - Gather youth feedback to increase sales amongst the single customers.Also implement a family-oriented marketing strategies to target married customers effectively.
-
-
-  
-### Ref
-
-😄
-
-💻
-
-|Heading1|Heading2|
-|--------|--------|
-|Content|Content2|
-|Python|SQL|
-
-`column_1`
-
-**bold**
-
-*italic*
