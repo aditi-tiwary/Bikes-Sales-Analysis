@@ -88,4 +88,4 @@ Based on the analysis, I would recommend the following actions:
 - Target group should be male customers with higher income.
 - Concentrate on areas with shorter commutes. Meanwhile, diversify products and collaborate to target the issue of longer commutes. 
 - Focus on expanding the products in North America as a priority. Meanwhile, launch strategic marketing ideas for other regions to increase the sales.
-- Gather youth feedback to increase sales amongst the single customers.Also implement a family-oriented marketing strategies to target married customers effectively.
+- Gather youth feedback to increase sales amongst the single customers. Also implement a family-oriented marketing strategies to target married customers effectively.
